@@ -13,7 +13,7 @@ export function downloadToExcel() {
         { label: "Gender", value: "gender" },
         {
           label: "Date of Birth",
-          value: (row) => new Date(row.date_of_birth).toLocaleDateString(),
+          value: (row) => row.date_of_birth ? new Date(row.date_of_birth).toLocaleDateString() : "",
         },
       ],
       content: people,
