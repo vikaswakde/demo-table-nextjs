@@ -94,7 +94,7 @@ export function PeopleDataTable<TData, TValue>({
         <DropdownMenu>
           <DropdownMenuTrigger>
             <Button variant="outline" className="ml-4">
-              Columns
+              Manage Columns
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end">
@@ -188,7 +188,7 @@ export function PeopleDataTable<TData, TValue>({
       {/* pagination */}
       <div className="flex items-center justify-end space-x-2 py-4">
         <Button onClick={() => downloadToExcel()} className="mx-auto">
-          Export to Excel
+          Export Data to Excel
         </Button>
         <Button
           variant="outline"
