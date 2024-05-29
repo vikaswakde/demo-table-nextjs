@@ -82,7 +82,7 @@
     color: #a0aec0; /* Assuming gray.400 corresponds to this color */
     padding: 0.5rem;
     font-weight: bold;
-    font-size: 0.75rem; /* Assuming xs corresponds to 0.75rem */
+    font-size: 0.75rem; /* Assuming xs corresponds to 0..75rem */
     text-transform: uppercase;
     text-align: center;
   }

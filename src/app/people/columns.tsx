@@ -59,12 +59,12 @@ export const columns: ColumnDef<People>[] = [
     },
   },
   {
-    accessorKey: "first_name",
     header: "First Name",
+    accessorKey: "first_name",
   },
   {
-    accessorKey: "last_name",
     header: "Last Name",
+    accessorKey: "last_name",
   },
   {
     accessorKey: "email",
@@ -72,8 +72,8 @@ export const columns: ColumnDef<People>[] = [
     size: 280,
   },
   {
-    accessorKey: "date_of_birth",
     header: "Date of Birth",
+    accessorKey: "date_of_birth",
     cell: ({ row }) => {
       const date_of_birth = row.getValue("date_of_birth");
       const formatted = new Date(date_of_birth as string).toLocaleDateString();
